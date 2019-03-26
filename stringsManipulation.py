@@ -21,7 +21,7 @@ print("Wybrany znak ze stringa:", a)
 print()
 
 # x[1:] 1 - do końca
-# x[:6] od początku - do 6
+# x[:6] od początku - do 6  PYTHON LICZY DO PRZEDOSTATNIEGO ZNAKU, czyli wyświetli znaki z pozycji: 0, 1, 2, 3, 4, 5
 # x[:] całość
 # x[-2] 2 od końca itd...
 
