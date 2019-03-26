@@ -57,9 +57,9 @@ print(myDictionary[123], type(myDictionary[123]))
 
 # Functions of <class 'dict'>
 
-print(myDictionary.get("Six", "defaultValue"))  # get by key, if not give default
-print(myDictionary.keys(), type(myDictionary.keys()))       # <class 'dict_keys'>
+print(myDictionary.get("Six", "defaultValue"))               # get by key, if not give default
+print(myDictionary.keys(), type(myDictionary.keys()))        # <class 'dict_keys'>
 print(myDictionary.values(), type(myDictionary.values()))    # <class 'dict_values'>
 
-print(myDictionary.items(), type(myDictionary.items()))     # <class 'dict_items'>
+print(myDictionary.items(), type(myDictionary.items()))      # <class 'dict_items'>
 myDictionary.clear()
