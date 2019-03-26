@@ -28,3 +28,18 @@ print()
 # konkatenacja:
 
 print(x + " costamcostam", x + x)
+
+# placeholders:
+# %s - placeholder dla stringów:
+name = "Jake"
+sentence = "%s  is 15 yeays old"
+
+print(sentence%name)        # użycie %s = name będzie wstawione do sentence w miejsce %s
+print(sentence%("Paul"))
+
+sentence = "%s %s is the %s president of US"       # multiple substitution as string (%s)
+print(sentence%("Donald", "Trump", 45))
+
+# %d - placeholder dla int:
+sentence = "%s %s is the %d president of US"       # multiple substitution as string and int (%d)
+print(sentence%("Donald", "Trump", 45))
