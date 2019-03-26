@@ -24,3 +24,7 @@ print()
 # x[:6] od początku - do 6
 # x[:] całość
 # x[-2] 2 od końca itd...
+
+# konkatenacja:
+
+print(x + " costamcostam", x + x)
