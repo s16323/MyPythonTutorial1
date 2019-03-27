@@ -251,3 +251,60 @@ print("\n-----------------exec()-----------------\n")
 program = "a = 5\nb=10\nprint('Sum =', a+b)"
 exec(program)
 
+
+
+
+
+
+
+
+print("\n-----------------iter()-----------------\n")
+# iter() returns iterator for an object
+# The iter() method creates an object which can be iterated one element at a time.
+# These objects are useful when coupled with loops like for loop, while loop.
+# iter() method takes two parameters:
+#
+#     object - object whose iterator has to be created (can be sets, tuples, etc.)
+#     sentinel (Optional) - special value that is used to represent the end of a sequence
+vowels = ['a', 'e', 'i', 'o', 'u']
+vowelsIter = iter(vowels)
+
+print(vowelsIter)
+print(type(vowelsIter))
+print(next(vowelsIter))
+print(next(vowelsIter))
+print(next(vowelsIter))
+
+
+class PrintNumber:
+
+    def __init__(self, maximum):
+        self.maximum = maximum
+
+    def __iter__(self):
+        self.num = 0
+
+    def __next__(self):
+        if self.num >= self.maximum:
+            raise StopIteration
+        self.num += 1
+        return self.num
+
+
+printNum = PrintNumber(4)
+print(type(printNum))
+printNumIter = iter(printNum)
+#print(type(printNumIter))
+# print(next(printNumIter))
+
+
+
+
+
+
+
+
+
+
+print("\n-----------------next()-----------------\n")
+# next()
