@@ -72,12 +72,3 @@ print_p1('A Paragraph')          # ...and used fro now on
 
 
 # JAVASCRIPT DOES THE SAME !
-
-
-
-# Closures
-
-
-
-
-# Decorators:
