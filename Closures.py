@@ -90,3 +90,5 @@ add_logger(3, 4)                # here we give arguments to add and execute
 sub_logger(10, 5)
 
 # check myFiles/example.log - all operations should be there
+
+# this can be achieved with DECORATORS...
