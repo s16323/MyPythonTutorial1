@@ -1,0 +1,3 @@
+INFO:root:Wrapper ran with args: ('John', 25), kwargs: {}
+INFO:root:Wrapper ran with args: ('John', 25), kwargs: {}
+INFO:root:display_info ran with args: ('John', 25), kwargs: {}
