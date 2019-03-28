@@ -1,3 +1,4 @@
 # First check:
-# First-Class-Functions
-# Closures
+# - First-Class-Functions
+# - Closures
+
