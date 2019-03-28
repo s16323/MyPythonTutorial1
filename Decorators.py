@@ -17,7 +17,7 @@ bye_func = outer_function("Bye")
 hi_func()                       # calls inner
 bye_func()
 
-# Decoator - a function that takes another function as an argument adds some kind of functionality and thar returns another function
+# Decoator - a function that takes another function as an argument adds some kind of functionality and than returns another function
 # without altering the source code of original function
 
 print("\n----------Example simple decorator:-----------\n")
@@ -68,7 +68,7 @@ def my_display():                               # original function
     print('my_display function ran')
 
 # In use:
-my_display()                                    # now, even though only 'my_display()' os called it still is being decorated on the way, so actually 'wrapper_function()' is in work here
+my_display()                                    # now, even though only 'my_display()' is called it is being decorated on the way, so actually 'wrapper_function()' is in work here
 
 #What happens actually is:
 # my_display = decorator_function(my_display)     # first decorate

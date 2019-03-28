@@ -1,7 +1,7 @@
 # https://www.youtube.com/watch?v=swU3c34d2NQ
 # Closures:
 # In programming languages, a closure, also lexical closure or function closure, is a technique for implementing lexically scoped name binding in a language
-# with first-class functions. Operationally, a closure is a record storing a function[a] together with an environment.[1] The environment is a mapping associating
+# with first-class functions. Operationally, a closure is a record storing a function together with an environment. The environment is a mapping associating
 # each free variable of the function (variables that are used locally, but defined in an enclosing scope) with the value or reference to which the name was bound
 # when the closure was created.[b] Unlike a plain function, a closure allows the function to access those captured variables through the closure's copies of their values or references,
 # even when the function is invoked outside their scope.
@@ -16,7 +16,7 @@ def outer_funct():              # outer_function takes no parameters
     return inner_function()     # here 'inner_function()' is executed and its output is returned by 'outer_function()'
 
 
-outer_funct()                   # executing 'outer_funct()' means in fact executing its 'nner_function()' - than 'Hi' will be printed when outer_function is called
+outer_funct()                   # executing 'outer_funct()' means in fact executing its 'inner_function()' - than 'Hi' will be printed when outer_function is called
 
 
 print("\n-----------------Closure in action-----------------\n")
@@ -49,9 +49,9 @@ def outer_funct(msg):           # now the same, but we also pass a parameter
     message = msg
 
     def inner_function():
-        print(message)
+        print(message)          # access to free variable
 
-    return inner_function
+    return inner_function       # here 'inner_function()' is NOT executed. A function returns a function. 'First-Class-Function'
 
 
 hi_funct =  outer_funct('Hi')           # makes a 'inner_function' and remembers 'Hi' - a closure with 'Hi' stored
