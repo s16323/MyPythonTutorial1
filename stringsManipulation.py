@@ -43,3 +43,18 @@ print(sentence%("Donald", "Trump", 45))
 # %d - placeholder dla int:
 sentence = "%s %s is the %d president of US"       # multiple substitution as string and int (%d)
 print(sentence%("Donald", "Trump", 45))
+
+
+print("\n----------Placeholders VS .format:-----------\n")
+# Placeholders VS .format
+
+# from math import *
+
+num = 5.54543
+print(
+
+num, '\n',
+round(num, 2), ' -> round(%d, 2)  placeholder gets num after rounding - actually it leads to a mistake here\n'%num,
+round(num, 2), ' -> round({}, 2)  .format gets num before rounding\n'.format(num),
+
+)
