@@ -5,8 +5,7 @@ for i, fruit in enumerate(fruits):
     print(i, fruit)
 
 print("--------------Enumerate---------------")
-
-# Enumerate
+# Enumerate - adds counter to an iterable and returns it
 # reach 3 fruit and omit the rest using 'enumerate' (iterator)
 
 for i, fruit in enumerate(fruits):     # 'For' loop receives 2 args now. For every index 'i' and a given 'fruit' element reported by 'enumerate()' function do:
