@@ -2,3 +2,4 @@
 __pycache__/
 venv/
 plik.txt
+fibonacci_recursive.log
