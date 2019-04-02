@@ -1,2 +1,13 @@
-INFO:root:Running function: add with arguments: (3, 4)
-INFO:root:Running function: sub with arguments: (10, 5)
+2019-04-02 13:13:31,726:DEBUG:Add: 10 + 5 = 15
+2019-04-02 13:13:31,726:DEBUG:Sub: 10 - 5 = 5
+2019-04-02 13:13:31,726:DEBUG:Mul: 10 * 5 = 50
+2019-04-02 13:13:31,726:DEBUG:Div: 10 / 5 = 2.0
+2019-04-02 13:20:20,116:DEBUG:Add: 10 + 5 = 15
+2019-04-02 13:20:20,116:DEBUG:Sub: 10 - 5 = 5
+2019-04-02 13:20:20,116:DEBUG:Mul: 10 * 5 = 50
+2019-04-02 13:20:20,116:DEBUG:Div: 10 / 5 = 2.0
+2019-04-02 13:26:14,078:INFO:Created employee: John Smith - John.Smith@email.com
+2019-04-02 13:26:14,078:INFO:Created employee: Dupa 666 - Dupa.666@email.com
+2019-04-02 13:27:55,005:INFO:Created employee: John Smith - John.Smith@email.com
+2019-04-02 13:27:55,005:INFO:Created employee: Dupa 666 - Dupa.666@email.com
+2019-04-02 13:27:55,005:INFO:Created employee: Kutas Kozla - Kutas.Kozla@email.com
