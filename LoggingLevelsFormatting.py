@@ -73,4 +73,8 @@ Lets use: time, level name, message
 % (asctime)s
 %(levelname)s
 %(message)s
+
+log:
+2019-04-02 14:14:06,533:DEBUG:Add: 10 + 5 = 15
+
 '''
