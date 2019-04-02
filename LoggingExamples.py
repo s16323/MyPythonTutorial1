@@ -23,5 +23,5 @@ class Employee:
 
 
 emp1 = Employee('John', 'Smith')
-emp2 = Employee('Dupa', '666')
-emp3 = Employee('Kutas', 'Kozla')
+emp2 = Employee('AAA', 'BBB')
+emp3 = Employee('CCC', 'DDD')
