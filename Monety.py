@@ -54,15 +54,16 @@ while licznik >= 1:
     licznik = licznik - 1
 
 
-print('200:', dwusetki, '\n',
-    '100:', setki, '\n',
-    '50:', piecdziesiatki, '\n',
-    '20:', dwudziestki, '\n',
-    '10:', dziesiatki, '\n',
-    '5:', piatki, '\n',
-    '2:', dwojki, '\n',
-    '1:', jedynki, '\n'
-      )
+# print('200:', dwusetki, '\n',
+#     '100:', setki, '\n',
+#     '50:', piecdziesiatki, '\n',
+#     '20:', dwudziestki, '\n',
+#     '10:', dziesiatki, '\n',
+#     '5:', piatki, '\n',
+#     '2:', dwojki, '\n',
+#     '1:', jedynki, '\n'
+#       )
+
 
 
 
